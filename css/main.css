@@ -1,0 +1,35 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.conteudo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 8px;
+}
+.painel{
+  width: 100vw;
+  height: 500px;
+}
+.resultado{
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.font{
+  font-size: 3.5rem;
+  color: orange;
+  font-weight: bold;
+}
