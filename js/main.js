@@ -7,7 +7,8 @@ function sorteio(NAsortea,QuantidadeTotal) {
             NumerosSorteados.push(sortiado)
         }
     }
-
+    NumerosSorteados.sort((a, b) => a - b)
+    
     return MostraResultado(NumerosSorteados)
 }
 
@@ -29,3 +30,4 @@ function MostraResultado(NumerosSorteados) {
     
 
 }
+
