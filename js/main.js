@@ -19,7 +19,7 @@ function MostraResultado(NumerosSorteados) {
     if(NumerosSorteados.length == 5){
         jogo.textContent = "Quina"
     }else if(NumerosSorteados.length ==15){
-        jogo.textContent = "Lotomania"
+        jogo.textContent = "Lotofácil"
     }else if(NumerosSorteados.length == 6){
         jogo.textContent = "Mega-sena"
     }
@@ -27,4 +27,5 @@ function MostraResultado(NumerosSorteados) {
         const resultadoTexto = NumerosSorteados.join('-');
         resultado.textContent = resultadoTexto;
     
+
 }
